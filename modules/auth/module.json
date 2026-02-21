@@ -1,0 +1,9 @@
+{
+  "name": "auth",
+  "requiredModules": [],
+  "dbMigrations": ["create auth users profile and session policies"],
+  "files": ["src/lib/auth.ts", "src/app/(auth)/login/page.tsx"],
+  "routes": ["/login", "/signup"],
+  "sidebarItems": ["Login"],
+  "dependencies": ["@supabase/supabase-js"]
+}

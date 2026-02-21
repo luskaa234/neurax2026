@@ -1,0 +1,23 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - /app/node_modules
+  sandbox:
+    build:
+      context: .
+      dockerfile: apps/sandbox/Dockerfile
+    ports:
+      - "4310:4310"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - /app/node_modules

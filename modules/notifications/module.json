@@ -1,0 +1,9 @@
+{
+  "name": "notifications",
+  "requiredModules": ["auth"],
+  "dbMigrations": ["create notification templates and delivery logs"],
+  "files": ["src/lib/notifications.ts", "src/app/(app)/notifications/page.tsx"],
+  "routes": ["/notifications"],
+  "sidebarItems": ["Notifications"],
+  "dependencies": []
+}

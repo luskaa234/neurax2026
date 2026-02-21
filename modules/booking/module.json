@@ -1,0 +1,9 @@
+{
+  "name": "booking",
+  "requiredModules": ["auth"],
+  "dbMigrations": ["create booking tables and availability indexes"],
+  "files": ["src/modules/booking/service.ts", "src/app/(app)/bookings/page.tsx"],
+  "routes": ["/bookings"],
+  "sidebarItems": ["Bookings"],
+  "dependencies": ["date-fns"]
+}

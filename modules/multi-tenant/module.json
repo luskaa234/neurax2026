@@ -1,0 +1,9 @@
+{
+  "name": "multi-tenant",
+  "requiredModules": ["auth"],
+  "dbMigrations": ["create organizations, memberships and tenant isolation policies"],
+  "files": ["src/lib/tenant.ts", "src/app/(app)/organizations/page.tsx"],
+  "routes": ["/organizations"],
+  "sidebarItems": ["Organizations"],
+  "dependencies": []
+}

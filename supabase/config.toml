@@ -1,0 +1,16 @@
+project_id = "krcbrymfhictgpydhull"
+
+[functions.generate-content]
+verify_jwt = false
+
+[functions.build-system]
+verify_jwt = false
+
+[functions.parse-system-intent]
+verify_jwt = false
+
+[functions.build-artifact-signed-url]
+verify_jwt = false
+
+[functions.regenerate-project-scope]
+verify_jwt = false

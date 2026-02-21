@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Neurax AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#20A8FF"/>
+      <stop offset="52%" stop-color="#27E5FF"/>
+      <stop offset="100%" stop-color="#5B7CFF"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="110" fill="url(#shine)"/>
+  <path d="M130 392V122h78l96 155V122h78v270h-78L208 236v156h-78Z" fill="#ffffff"/>
+</svg>

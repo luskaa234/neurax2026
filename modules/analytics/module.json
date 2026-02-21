@@ -1,0 +1,9 @@
+{
+  "name": "analytics",
+  "requiredModules": ["auth"],
+  "dbMigrations": ["create metrics table and rollup jobs"],
+  "files": ["src/lib/analytics.ts", "src/app/(app)/analytics/page.tsx"],
+  "routes": ["/analytics"],
+  "sidebarItems": ["Analytics"],
+  "dependencies": ["recharts"]
+}

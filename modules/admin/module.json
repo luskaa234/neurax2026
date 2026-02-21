@@ -1,0 +1,9 @@
+{
+  "name": "admin",
+  "requiredModules": ["auth"],
+  "dbMigrations": ["create role based permissions and audit events"],
+  "files": ["src/lib/admin.ts", "src/app/(app)/admin/page.tsx"],
+  "routes": ["/admin"],
+  "sidebarItems": ["Admin"],
+  "dependencies": []
+}

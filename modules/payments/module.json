@@ -1,0 +1,9 @@
+{
+  "name": "payments",
+  "requiredModules": ["auth", "multi-tenant"],
+  "dbMigrations": ["create subscriptions and invoices tables"],
+  "files": ["src/lib/payments.ts", "src/app/(app)/billing/page.tsx"],
+  "routes": ["/billing"],
+  "sidebarItems": ["Billing"],
+  "dependencies": ["stripe"]
+}

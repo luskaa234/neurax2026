@@ -1,0 +1,9 @@
+{
+  "name": "file-upload",
+  "requiredModules": ["auth"],
+  "dbMigrations": ["create files metadata table and storage policies"],
+  "files": ["src/lib/uploads.ts", "src/app/(app)/files/page.tsx"],
+  "routes": ["/files"],
+  "sidebarItems": ["Files"],
+  "dependencies": []
+}

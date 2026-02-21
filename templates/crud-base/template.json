@@ -1,0 +1,16 @@
+{
+  "name": "crud-base",
+  "version": "2.0.0",
+  "entry": "src/app/page.tsx",
+  "stack": "Next.js App Router + Supabase + Tailwind",
+  "contains": [
+    "nextjs-app-router",
+    "supabase-client",
+    "auth",
+    "sidebar-layout",
+    "middleware",
+    "tailwind",
+    "npm-scripts",
+    ".env.example"
+  ]
+}
